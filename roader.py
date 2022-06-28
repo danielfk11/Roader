@@ -1,7 +1,6 @@
 import os 
 from cryptography.fernet import Fernet
 
-
 resp = input("Selecione o que deseja fazer: \n-> 1 para encriptar \n-> 2 para descriptografar \n-> ")
 
 if resp not in ['1', '2', '0']:
